@@ -1,11 +1,11 @@
 {
-  "name": "edge-transfer_2",
+  "name": "edge-transfer",
   "description": "",
   "author": "Damon Zucconi",
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dzucconi/edge-transfer_2"
+    "url": "https://github.com/dzucconi/edge-transfer"
   },
   "scripts": {
     "test": "mocha test",
