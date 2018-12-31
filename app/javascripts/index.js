@@ -53,6 +53,8 @@ export default () => {
 
   const SET = sets[PARAMS.set];
 
+  document.title = `Edge Transfer (${SET.name})`;
+
   const EDGES = {
     [SIDES.L]: renderNode(
       `<div
