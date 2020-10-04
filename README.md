@@ -1,5 +1,7 @@
 # Edge Transfer
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4e3906e5-ae1e-4be0-aa60-47a5595949df/deploy-status)](https://app.netlify.com/sites/damonzucconi-edge-transfer/deploys)
+
 ## Meta
 
 - **State**: production
