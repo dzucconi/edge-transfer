@@ -1,6 +1,5 @@
 {
   "name": "edge-transfer",
-  "description": "",
   "author": "Damon Zucconi",
   "version": "0.0.1",
   "repository": {
@@ -8,34 +7,17 @@
     "url": "https://github.com/dzucconi/edge-transfer"
   },
   "scripts": {
-    "test": "mocha test",
-    "start": "brunch watch --server",
-    "prod": "brunch build --production",
-    "sync": "s3-cli --config .s3config sync --delete-removed --acl-public public/ s3://work.damonzucconi.com/$npm_package_name",
-    "deploy": "npm run prod && npm run sync"
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
   },
   "devDependencies": {
-    "auto-reload-brunch": "^2.7.1",
-    "autoprefixer": "^7.1.4",
-    "babel-brunch": "^6.1.1",
-    "babel-core": "^6.17.0",
-    "babel-eslint": "^10.0.1",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-stage-3": "^6.24.1",
-    "brunch": "^2.10.10",
-    "clean-css-brunch": "^2.10.0",
-    "css-brunch": "^2.10.0",
-    "digest-brunch": "^1.6.0",
-    "eslint": "^4.6.1",
-    "javascript-brunch": "^2.10.0",
-    "mocha": "^3.5.1",
-    "postcss-brunch": "^2.1.0",
-    "s3-cli": "^0.13.0",
-    "should": "^13.0.1",
-    "uglify-js-brunch": "^2.10.0"
+    "@types/velocity-animate": "^2.0.1",
+    "parcel": "^1.12.4",
+    "sass": "^1.26.11",
+    "typescript": "^4.0.3"
   },
   "dependencies": {
-    "queryparams": "0.0.7",
+    "queryparams": "^1.0.52",
     "velocity-animate": "^1.5.2"
   }
 }

@@ -34,15 +34,15 @@ body {
   background-size: cover;
   background-position: center center;
 }
-  .Edge--void {
-    position: absolute;
-    display: block;
-    top: 5%;
-    right: 5%;
-    bottom: 5%;
-    left: 5%;
-    background-color: inherit;
-  }
+.Edge--void {
+  position: absolute;
+  display: block;
+  top: 5%;
+  right: 5%;
+  bottom: 5%;
+  left: 5%;
+  background-color: inherit;
+}
 
 .Transfer {
   display: block;
@@ -55,6 +55,6 @@ body {
   background-color: transparent;
   z-index: 1;
 }
-  .Transfer--active {
-    z-index: 2;
-  }
+.Transfer--active {
+  z-index: 2;
+}
