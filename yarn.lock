@@ -4220,10 +4220,10 @@ qs@~6.5.2:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
 
-queryparams@1.0.52:
-  version "1.0.52"
-  resolved "https://registry.yarnpkg.com/queryparams/-/queryparams-1.0.52.tgz#2bf6b80540e0514ee41aa0c0c1cadb4d57e7a353"
-  integrity sha512-Q9EJIRSj7X7XHyWf/QApIIOI8mko34pyfvewMBbxtuDrun3wGqQIsTftmkjZCVRqGltUy/zIz3siw2ci0TpGJw==
+queryparams@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/queryparams/-/queryparams-1.1.0.tgz#e8c6fc46dcae5c403b730dcf3f54056d924a9dee"
+  integrity sha512-BZDGxvrmq7NjLzXpKyyXnDFxiNrqzYW/Ccsg8JSyMsC+yC5TWlBc8OxFNBiVGY2de74/FWsBuIrVYnLwDt276w==
   dependencies:
     qs "^6.9.4"
 
