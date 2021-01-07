@@ -17,7 +17,7 @@
     "typescript": "4.1.2"
   },
   "dependencies": {
-    "queryparams": "1.0.52",
+    "queryparams": "1.1.0",
     "velocity-animate": "1.5.2"
   }
 }
